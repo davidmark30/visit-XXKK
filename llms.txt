@@ -1,0 +1,35 @@
+# XXKK Crypto Fees & Fiat Buying Guide
+
+> Canonical URL: https://visit-xxkk.up.railway.app/
+> Language: English
+> Last updated: 2026-08-30
+
+## Summary
+
+This page is an informational guide covering XXKK crypto purchases with fiat, spot trading, futures, withdrawal fees, payment methods, execution costs, and beginner considerations.
+
+## Key Topics
+
+- Buying Bitcoin and other cryptocurrency with fiat
+- Fiat payment methods and verification
+- Spot trading fees
+- Futures maker and taker fees
+- USDT and cryptocurrency withdrawal fees
+- Spread and slippage
+- Futures funding
+- Reducing total trading costs
+- Beginner crypto trading guidance
+- Account and transaction security considerations
+
+## Important Fee Context
+
+The page references a 0.10% maker and 0.10% taker spot fee schedule and a referenced futures example of 0.02% maker and 0.06% taker. These figures are time-sensitive and should be verified against the current official XXKK fee information before trading.
+
+## Source Links
+
+- Official XXKK website: https://www.xxkk.com/en/
+- Official XXKK fee page: https://www.xxkk.com/en/fee
+
+## Sitemap
+
+https://visit-xxkk.up.railway.app/sitemap.xml

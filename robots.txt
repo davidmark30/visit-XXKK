@@ -1,0 +1,8 @@
+# Robots policy for visit-xxkk.up.railway.app
+User-agent: *
+Allow: /
+
+# Common AI/search crawlers are not blocked by this policy.
+# robots.txt does not provide a universal AI-specific permission standard.
+
+Sitemap: https://visit-xxkk.up.railway.app/sitemap.xml
