@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visit XXKK to buy crypto with fiat and learn spot, futures, withdrawal and USDT fees, payment methods, trading costs and account basics.">
+    <meta name="keywords" content="XXKK, crypto exchange, Bitcoin, Ethereum, trading fees, fiat gateway, spot trading, futures">
+    <meta name="author" content="XXKK">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <title>Visit XXKK: Crypto Fees & Fiat Buying Guide</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --bg-tertiary: #f0f2f5;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-tertiary: #6b6b6b;
+            --border-color: #e0e0e0;
+            --accent-color: #0066cc;
+            --accent-light: #e6f0ff;
+            --accent-dark: #0052a3;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --info-color: #3b82f6;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        body.dark-mode {
+            --bg-primary: #0f0f0f;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #252525;
+            --text-primary: #ffffff;
+            --text-secondary: #d1d1d1;
+            --text-tertiary: #9ca3af;
+            --border-color: #2d2d2d;
+            --accent-light: #1e3a5f;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: var(--transition);
+            overflow-x: hidden;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            position: relative;
+            z-index: 100;
+            transition: var(--transition);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-controls {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            width: 44px;
+            height: 44px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover {
+            background-color: var(--bg-tertiary);
+            transform: scale(1.05);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--accent-light) 0%, var(--bg-secondary) 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Cards & Boxes */
+        .card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .info-box {
+            background-color: var(--accent-light);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            transition: var(--transition);
+        }
+
+        .info-box.success {
+            background-color: rgba(16, 185, 129, 0.1);
+            border-left-color: var(--success-color);
+        }
+
+        .info-box.warning {
+            background-color: rgba(245, 158, 11, 0.1);
+            border-left-color: var(--warning-color);
+        }
+
+        .info-box.info {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-left-color: var(--info-color);
+        }
+
+        /* Typography */
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 1.2rem;
+            margin-bottom: 0.8rem;
+            color: var(--text-primary);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+            line-height: 1.8;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background-color: var(--bg-tertiary);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-primary);
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 0.9rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        tr:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        /* Buttons & Links */
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: var(--accent-dark);
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            text-decoration: none;
+        }
+
+        .btn-secondary {
+            background-color: var(--bg-tertiary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--border-color);
+        }
+
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-lg);
+            transition: var(--transition);
+            z-index: 99;
+        }
+
+        .scroll-top.show {
+            display: flex;
+        }
+
+        .scroll-top:hover {
+            background-color: var(--accent-dark);
+            transform: translateY(-5px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            transition: var(--transition);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .footer-section a {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-color);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: var(--bg-tertiary);
+            border-radius: 50%;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border-color);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-tertiary);
+            font-size: 0.9rem;
+        }
+
+        /* FAQs */
+        .faq-item {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--text-primary);
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        .faq-question .icon {
+            transition: var(--transition);
+        }
+
+        .faq-item.active .faq-question .icon {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: var(--transition);
+            color: var(--text-secondary);
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            max-height: 1000px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+
+            .header-container {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .hero {
+                padding: 2rem 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            .card {
+                padding: 1.5rem;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+
+            .scroll-top {
+                width: 45px;
+                height: 45px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 0.75rem;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+
+            .hero {
+                padding: 1.5rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.95rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            .card {
+                padding: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            .nav-controls {
+                gap: 1rem;
+            }
+
+            .theme-toggle {
+                width: 40px;
+                height: 40px;
+            }
+
+            .scroll-top {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Section Cards */
+        .section-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .section-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .subsection {
+            background-color: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Checklist */
+        .checklist {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .checklist li {
+            padding-left: 1.8rem;
+            position: relative;
+        }
+
+        .checklist li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Highlight */
+        .highlight {
+            background-color: var(--accent-light);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">XXKK</a>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Buy Crypto With Fiat and Understand Trading Fees</h1>
+            <p>Learn how to purchase Bitcoin, Ethereum, and other cryptocurrencies on XXKK with local currency, and understand the complete cost of your trades.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Introduction Card -->
+        <div class="card">
+            <h2>Introduction to XXKK</h2>
+            <p>If you want to buy Bitcoin without first moving money through another crypto exchange, the first question is usually simple: where can you buy crypto with your local currency and what will it actually cost? When you <a href="https://www.xxkk.com/" target="_blank">visit XXKK</a>, you can explore its fiat gateway, spot markets, futures products, and published fee structure from one platform.</p>
+            <p>XXKK provides a crypto exchange environment for buying and trading digital assets such as Bitcoin (BTC), Ethereum (ETH), USDT, and other cryptocurrencies. Its fiat purchase pages support payment methods such as credit and debit cards, bank transfers, Apple Pay, Google Pay, and other payment options, depending on the currency and availability for your region.</p>
+            <div class="info-box info">
+                <strong>Important:</strong> For active traders, the other important issue is cost. A trading platform may advertise low fees, but your actual cost can include the trading commission, spread, slippage, funding payments on perpetual futures, and blockchain withdrawal charges. Understanding these separately makes it much easier to decide whether a particular trade is economical.
+            </div>
+        </div>
+
+        <!-- What Is XXKK Section -->
+        <div class="section-card">
+            <h2>What Is XXKK and What Can You Do There?</h2>
+            <p>XXKK is a cryptocurrency exchange offering spot and derivatives trading alongside crypto purchasing, market data, educational resources, and other digital-asset services. Its official About page currently states that the platform supports spot and futures markets and reports more than 280 assets, 120+ markets, and 8 million+ users.</p>
+            <p><strong>The exact products and availability you see can depend on your account, location, verification status, and current platform policies.</strong> Therefore, treat the exchange interface and official fee pages as the final source for what is available to your account.</p>
+
+            <div class="subsection">
+                <h3>Spot Trading</h3>
+                <p>Spot trading means buying or selling the actual cryptocurrency at the market price or at a price you specify.</p>
+                <p>For example, a BTC/USDT spot trade lets you exchange USDT for Bitcoin. If you buy 0.01 BTC, the Bitcoin is credited to your exchange balance after the order is filled.</p>
+                <p>Spot trading is generally easier to understand than leveraged derivatives because you are not opening a leveraged perpetual position. XXKK's own beginner material describes spot trading as direct buying and selling of assets such as BTC and ETH.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Futures and Perpetual Contracts</h3>
+                <p>Futures or perpetual contracts work differently. Instead of simply buying the underlying coin, you open a derivatives position based on its price.</p>
+                <p>XXKK provides perpetual contract markets with real-time information including prices, 24-hour changes, highs, lows, and trading volumes.</p>
+                <div class="info-box warning">
+                    <strong>Warning:</strong> Leverage can increase the size of a position relative to the capital used. It also increases the potential loss, so futures should not be treated as simply a faster version of spot trading.
+                </div>
+            </div>
+        </div>
+
+        <!-- How to Buy Crypto Section -->
+        <div class="section-card">
+            <h2>How Can You Buy Crypto With Fiat on XXKK?</h2>
+            <p>You can use XXKK's fiat gateway to purchase supported cryptocurrencies using selected traditional payment methods. The available options can include cards, bank transfers, Apple Pay, Google Pay, and other local payment services.</p>
+
+            <h3>Basic Purchase Process</h3>
+            <p>The basic process is straightforward:</p>
+            <ol>
+                <li>Create or sign in to your XXKK account.</li>
+                <li>Complete identity verification if required.</li>
+                <li>Open the fiat crypto purchase section.</li>
+                <li>Choose your fiat currency.</li>
+                <li>Select the cryptocurrency you want to buy.</li>
+                <li>Enter the amount you want to spend.</li>
+                <li>Choose an available payment method.</li>
+                <li>Review the quoted amount, fees, and final crypto amount.</li>
+                <li>Confirm the transaction.</li>
+                <li>Check your balance and transaction history after completion.</li>
+            </ol>
+
+            <p>XXKK's BTC purchase page says users can buy BTC through methods including credit or debit cards and bank transfers, with other payment options such as Apple Pay and Google Pay also supported. The page also states that the platform supports 360+ fiat currencies and 90+ cryptocurrencies on its fiat gateway interface, although the exact options available to an individual user can vary.</p>
+
+            <div class="subsection">
+                <h3>Is KYC Required?</h3>
+                <p>XXKK's published fiat-purchase instructions include identity verification as part of the buying process. Users may be asked to provide government-issued identification and proof of address before purchasing crypto through the fiat gateway.</p>
+                <div class="info-box success">
+                    <strong>Note:</strong> This is important because a user may be able to access parts of an exchange without completing the same level of verification required for fiat purchases. Do not assume that account registration automatically means every funding method is available.
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Methods Section -->
+        <div class="section-card">
+            <h2>What Payment Methods Does XXKK Support?</h2>
+            <p>XXKK lists several payment methods across its fiat purchase flow, including credit cards, debit cards, bank transfers, Apple Pay, Google Pay, and other payment services. Availability depends on the selected currency and region.</p>
+            <p><strong>The practical point is to check the payment options shown on your own purchase screen rather than relying on a generic list.</strong></p>
+            <p>For example, one payment method may work for USD but not EUR. A card issuer may also apply its own currency-conversion or cash-advance charges. Those costs are separate from an exchange's trading fee.</p>
+
+            <div class="subsection">
+                <h3>What Should You Check Before Paying?</h3>
+                <p>Before confirming a fiat purchase, check:</p>
+                <ul>
+                    <li>Fiat amount you are spending</li>
+                    <li>Cryptocurrency amount you will receive</li>
+                    <li>Quoted exchange rate</li>
+                    <li>Any displayed service or transaction charge</li>
+                    <li>Payment-provider charges</li>
+                    <li>Minimum or maximum purchase limits</li>
+                    <li>Verification requirements</li>
+                    <li>Whether the payment method is available in your country</li>
+                </ul>
+                <div class="info-box warning">
+                    <strong>Tip:</strong> This is especially important for small purchases. A fixed payment charge can have a much larger percentage impact on a $50 transaction than on a $5,000 transaction.
+                </div>
+            </div>
+        </div>
+
+        <!-- Trading Fees Section -->
+        <div class="section-card">
+            <h2>What Are XXKK Trading Fees?</h2>
+            <p>XXKK publishes separate fee categories for deposits and withdrawals, spot trading, USDT-M products, and TradFi services. The official fee page should be checked immediately before trading because rates and network charges can change.</p>
+
+            <div class="subsection">
+                <h3>Spot Trading Fees</h3>
+                <p>For standard spot trading, XXKK's published support documentation lists a <span class="highlight">0.10% maker fee and 0.10% taker fee</span> for all spot trading pairs in that fee schedule.</p>
+                <p>A simple calculation makes the cost easier to understand.</p>
+                <p>If your executed spot trade has a value of 1,000 USDT and the applicable fee is 0.10%:</p>
+                <div class="info-box info">
+                    <strong>Calculation:</strong> 1,000 × 0.001 = 1 USDT<br>
+                    Trading commission would be approximately 1 USDT under that rate.
+                </div>
+                <p>However, this does not mean that 1 USDT is necessarily the complete cost of the transaction. Spread and slippage can add additional execution costs.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>What Is the Difference Between Maker and Taker Fees?</h3>
+                <p>A maker order adds liquidity to the order book, while a taker order removes available liquidity by executing against existing orders.</p>
+                <p>On XXKK, the published standard spot schedule lists both maker and taker fees at 0.10%.</p>
+                <p><strong>That does not make order type irrelevant.</strong></p>
+                <p>A market order normally executes immediately against available liquidity. A limit order can give you more control over the price, although it may not fill.</p>
+                <p>For example, suppose BTC is trading around 60,000 USDT. You could:</p>
+                <ul>
+                    <li>Place a market order and accept the available prices.</li>
+                    <li>Place a limit order and specify the maximum price you are willing to pay.</li>
+                    <li>Use a limit order that rests on the order book and potentially behaves as a maker order.</li>
+                </ul>
+                <p><strong>The important distinction is that the trading fee and execution price are separate issues.</strong></p>
+            </div>
+        </div>
+
+        <!-- Futures Fees Section -->
+        <div class="section-card">
+            <h2>How Much Are XXKK Futures Fees?</h2>
+            <p>XXKK's recent educational material states that regular users pay <span class="highlight">0.02% futures maker fees and 0.06% futures taker fees</span> for the futures example described there.</p>
+            <p>Because derivatives pricing can vary by product, account tier, promotional program, and current fee schedule, verify the rate shown in your account before placing a position.</p>
+            <p>Futures also have another cost that spot traders do not normally deal with: <strong>funding.</strong></p>
+            <p>Funding payments are associated with perpetual contracts and can move between traders according to the contract's funding mechanism. They should be treated separately from the maker or taker trading commission.</p>
+
+            <div class="subsection">
+                <h3>Example of Futures Fee Calculation</h3>
+                <p>Suppose you open a 10,000 USDT futures position and your applicable taker rate is 0.06%.</p>
+                <p>The basic commission calculation is:</p>
+                <div class="info-box info">
+                    <strong>Calculation:</strong> 10,000 × 0.0006 = 6 USDT<br>
+                    That is the trading fee for the stated assumption.
+                </div>
+                <p>It does not include potential funding, spread, slippage, or liquidation-related costs.</p>
+                <p>The distinction matters because a position can appear cheap based on the headline commission while becoming more expensive when held for a longer period.</p>
+            </div>
+        </div>
+
+        <!-- Withdrawal Fees Section -->
+        <div class="section-card">
+            <h2>What Are XXKK Withdrawal Fees?</h2>
+            <p><a href="https://xxkkcryptoexchange.lovable.app" target="_blank">XXKK states</a> that it does not charge a deposit fee for cryptocurrency deposits. Cryptocurrency withdrawals, however, carry a fixed withdrawal charge that is related to transaction costs and can change with blockchain network conditions.</p>
+            <p>The published fee table currently lists examples such as:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asset</th>
+                        <th>Network</th>
+                        <th>Minimum Withdrawal</th>
+                        <th>Listed Withdrawal Fee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>USDT</td>
+                        <td>TRC20</td>
+                        <td>10</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>USDT</td>
+                        <td>ERC20</td>
+                        <td>55</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>BTC</td>
+                        <td>Bitcoin</td>
+                        <td>0.003</td>
+                        <td>0.0003</td>
+                    </tr>
+                    <tr>
+                        <td>ETH</td>
+                        <td>ERC20</td>
+                        <td>0.015</td>
+                        <td>0.0028</td>
+                    </tr>
+                    <tr>
+                        <td>TRX</td>
+                        <td>TRC20</td>
+                        <td>100</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box warning">
+                <strong>Important:</strong> These figures are time-sensitive. XXKK specifically says withdrawal fees may fluctuate because of blockchain network conditions and recommends checking the latest fee shown on the withdrawal page before submitting a transaction.
+            </div>
+            <p>This is one reason you should not calculate your total trading cost using the exchange commission alone.</p>
+        </div>
+
+        <!-- Real Cost Section -->
+        <div class="section-card">
+            <h2>What Is the Real Cost of a Crypto Trade on XXKK?</h2>
+            <p>The real cost is usually a combination of several components:</p>
+            <div class="info-box info">
+                <strong>Cost Formula:</strong><br>
+                Total cost ≈ trading fee + spread + slippage + applicable funding + withdrawal/network cost
+            </div>
+            <p>Not every transaction has every component.</p>
+            <ul>
+                <li>For a simple spot purchase that stays on the exchange, you may mainly deal with the trading fee and execution spread.</li>
+                <li>For a futures position, you may also have funding.</li>
+                <li>For a withdrawal, you have the applicable blockchain withdrawal charge.</li>
+            </ul>
+
+            <div class="subsection">
+                <h3>Trading Fee</h3>
+                <p>This is the explicit commission charged by the exchange when an order executes.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Spread</h3>
+                <p>The spread is the difference between the best available buying and selling prices.</p>
+                <p>A tight order book can reduce this cost. A thin market can have a wider spread.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Slippage</h3>
+                <p>Slippage occurs when your actual execution price differs from the price you expected.</p>
+                <p>It can become more noticeable when:</p>
+                <ul>
+                    <li>The market moves quickly</li>
+                    <li>Your order is large</li>
+                    <li>The trading pair has limited liquidity</li>
+                    <li>The order book is thin</li>
+                </ul>
+                <p>A market order does not guarantee a single execution price for a large order.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Funding</h3>
+                <p>Funding applies to applicable perpetual futures positions. It is separate from the normal maker or taker commission.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Withdrawal Fee</h3>
+                <p>A blockchain withdrawal can involve a network-related charge. XXKK's published withdrawal page warns that these fees can change without prior notice.</p>
+            </div>
+        </div>
+
+        <!-- Cost Reduction Section -->
+        <div class="section-card">
+            <h2>How Can You Reduce Your XXKK Trading Costs?</h2>
+            <p>Reducing trading costs is not simply about finding the smallest percentage on a fee table. Execution quality matters too.</p>
+
+            <div class="subsection">
+                <h3>Compare the Complete Cost Before Ordering</h3>
+                <p>Before pressing Buy or Sell, check the amount you will receive and the quoted execution price.</p>
+                <ul>
+                    <li>For fiat purchases, compare the quoted crypto amount with the amount you expected based on the current market price.</li>
+                    <li>For spot trading, compare the best bid and ask and consider whether a limit order is more appropriate.</li>
+                </ul>
+            </div>
+
+            <div class="subsection">
+                <h3>Avoid Unnecessary Trading</h3>
+                <p>A 0.10% fee may look small on one transaction. Repeating trades many times can make the total much larger.</p>
+                <p>For example, 100 separate trades with 1,000 USDT of executed volume each represent 100,000 USDT of trading volume. At a hypothetical 0.10% fee, that is 100 USDT in commissions before considering spread and slippage.</p>
+                <p><strong>The lesson is simple: turnover matters.</strong></p>
+            </div>
+
+            <div class="subsection">
+                <h3>Use Limit Orders When Price Control Matters</h3>
+                <p>A limit order lets you specify your acceptable price.</p>
+                <p>That can help when the market is volatile or when the spread is wider than usual. However, a limit order can remain unfilled, so speed and certainty may sometimes matter more than price control.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Watch Futures Funding</h3>
+                <p>If you trade perpetual contracts, do not look only at the opening fee.</p>
+                <p>A position held over multiple funding periods can accumulate funding costs or receive funding depending on the applicable rate and position direction.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Check the Current Withdrawal Charge</h3>
+                <p>If you frequently move funds to a personal wallet, compare the withdrawal cost before choosing a network.</p>
+                <p>For example, XXKK's published table shows different USDT withdrawal charges for TRC20 and ERC20.</p>
+                <p><strong>Always confirm the current amount on the withdrawal screen because blockchain conditions and exchange policies can change.</strong></p>
+            </div>
+        </div>
+
+        <!-- Beginners Section -->
+        <div class="section-card">
+            <h2>Is XXKK Suitable for Beginners?</h2>
+            <p>XXKK offers beginner-oriented educational material covering topics such as spot trading, futures order types, trading pairs, deposits, withdrawals, and account support. Its Academy currently contains dedicated beginner guides and FAQ resources.</p>
+            <p><strong>A beginner should still start with the simplest product they understand.</strong></p>
+            <p>For many new users, that means learning:</p>
+            <ul>
+                <li>How wallets and exchange balances work.</li>
+                <li>How BTC/USDT and ETH/USDT pairs work.</li>
+                <li>The difference between market and limit orders.</li>
+                <li>How trading fees are calculated.</li>
+                <li>How crypto withdrawals work.</li>
+                <li>Why blockchain networks matter.</li>
+                <li>How futures and leverage differ from spot trading.</li>
+            </ul>
+            <div class="info-box warning">
+                <strong>Important:</strong> Futures should generally come later in the learning process because leverage introduces additional risks that do not exist in the same way with an ordinary spot purchase.
+            </div>
+        </div>
+
+        <!-- Safety Section -->
+        <div class="section-card">
+            <h2>Is XXKK Safe to Use?</h2>
+            <p>XXKK says its security approach includes measures such as cold and hot wallet separation, two-factor authentication, encryption, multi-signature mechanisms, transaction monitoring, and insurance protection. These are claims made by the platform itself, so they should be understood as stated security practices rather than an independent guarantee of safety.</p>
+            <p><strong>Good account security also depends on the user.</strong></p>
+            <ul>
+                <li>Use a unique password and enable two-factor authentication.</li>
+                <li>Be careful with withdrawal addresses, phishing links, and unsolicited support messages.</li>
+            </ul>
+            <div class="info-box success">
+                <strong>Tip:</strong> One particularly important operational point is blockchain address accuracy. XXKK's support material warns that depositing the wrong cryptocurrency or using an incorrect address may create recovery problems, and recovery may not always be possible. For a large transfer, sending a small test transaction first can be a sensible operational precaution.
+            </div>
+        </div>
+
+        <!-- Pre-Visit Checklist -->
+        <div class="section-card">
+            <h2>What Should You Check Before You Visit XXKK and Start Trading?</h2>
+            <p>If you are considering an account, use this short checklist:</p>
+            <ul class="checklist">
+                <li>Check whether XXKK services are available in your country.</li>
+                <li>Review current identity-verification requirements.</li>
+                <li>Confirm the fiat payment method available to you.</li>
+                <li>Compare the quoted fiat purchase price with the market price.</li>
+                <li>Check the current spot or futures fee applicable to your account.</li>
+                <li>Understand maker and taker execution.</li>
+                <li>Check withdrawal fees for the exact asset and network.</li>
+                <li>Confirm the destination blockchain before withdrawing.</li>
+                <li>Enable 2FA.</li>
+                <li>Start with an amount you can afford to lose.</li>
+                <li>Learn spot trading before using leverage.</li>
+            </ul>
+            <p><strong>This checklist is more useful than judging an exchange from one headline fee.</strong></p>
+        </div>
+
+        <!-- Learn More Section -->
+        <div class="section-card">
+            <h2>Where Can You Learn More About XXKK?</h2>
+            <p>If you want to visit XXKK, the official website is the best starting point for current products, account access, markets, and platform information:</p>
+            <p><a href="https://www.xxkk.com/en/" class="btn">Visit the Official XXKK Website</a></p>
+            <p style="margin-top: 1.5rem;">For readers specifically researching costs, the official fee page is a natural internal resource:</p>
+            <p><a href="https://www.xxkk.com/en/fee" class="btn">XXKK Trading Fees and Withdrawal Fees</a></p>
+            <p style="margin-top: 1.5rem;">You can also use XXKK's Academy for educational material about spot trading, futures, order types, and account-related questions.</p>
+        </div>
+
+        <!-- Final Takeaway -->
+        <div class="card" style="background-color: var(--accent-light); border-left: 4px solid var(--accent-color);">
+            <h2>Final Takeaway</h2>
+            <p>XXKK combines fiat crypto purchasing with spot and futures trading, giving users several ways to enter and trade the digital-asset market. Its fiat gateway supports multiple payment methods, while its trading environment covers assets such as BTC, ETH, USDT, and other cryptocurrencies.</p>
+            <p><strong>The most important point is to look beyond a single advertised fee.</strong> Your actual cost can include the exchange commission, spread, slippage, futures funding, and withdrawal charges.</p>
+            <p>For spot trading, XXKK's published support documentation lists a 0.10% maker and 0.10% taker rate, while its recent futures guide gives 0.02% maker and 0.06% taker rates for regular users in the referenced futures schedule. Because fee schedules can change, always confirm the rate displayed for your account before placing a trade.</p>
+            <p style="margin-bottom: 0;"><strong>If your goal is to buy crypto with fiat, compare the final quoted amount rather than just the advertised payment method. If your goal is active trading, calculate the complete cost of the trade before increasing your position size.</strong></p>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="section-card">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How do I buy Bitcoin on XXKK?</span>
+                    <span class="icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>To buy Bitcoin on XXKK, create an account, complete any required verification, open the fiat crypto purchase section, select BTC and your preferred fiat currency, choose an available payment method, enter your amount, and review the final quote before confirming. XXKK lists cards, bank transfers, Apple Pay, Google Pay, and other payment options depending on availability. After the purchase is completed, check your wallet balance and transaction history. Payment methods, supported currencies, limits, and verification requirements can vary, so confirm the options shown in your account before paying.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What are XXKK spot trading fees?</span>
+                    <span class="icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>XXKK's published spot trading support page currently lists a 0.10% maker fee and a 0.10% taker fee for all spot trading pairs under that fee schedule. The fee is calculated from the executed order quantity or trade value according to the platform's stated calculation method. For example, a 1,000 USDT trade at 0.10% produces a 1 USDT trading fee. Your complete transaction cost can still be higher because spread and slippage are separate from the exchange commission. Check the official fee page before trading because rates can change.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What are XXKK futures fees?</span>
+                    <span class="icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>XXKK's recent futures educational guide states that regular users pay 0.02% maker fees and 0.06% taker fees for the futures trading example covered by the guide. Futures costs can involve more than the opening or closing commission. Perpetual contracts may also involve funding payments, while volatile markets can create spread and slippage. Your applicable rate may depend on the product, account status, or current fee program. Therefore, treat the published rate as a reference and verify the current fee shown in your XXKK account before opening a leveraged position.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Does XXKK charge withdrawal fees?</span>
+                    <span class="icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes. XXKK states that cryptocurrency withdrawals carry a fee designed to cover transaction costs. The amount depends on the cryptocurrency and blockchain network and may change because of network conditions. Its published fee table currently shows different charges for networks such as USDT TRC20 and ERC20, as well as BTC and ETH withdrawals. XXKK recommends checking the latest withdrawal fee displayed on the withdrawal page before confirming a transaction. This is important because the fee shown in an older article may not match the amount currently applied to your withdrawal.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Is buying crypto with fiat cheaper than buying through spot trading?</span>
+                    <span class="icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Not necessarily. A fiat gateway is convenient because it lets you purchase crypto directly with traditional currency, but the final price can include payment-provider costs or an embedded price difference. Spot trading gives you direct access to an order book, where you can evaluate the bid, ask, spread, and trading commission. The better option depends on the exact quote, payment method, order size, and market conditions. Compare the final amount of cryptocurrency you receive rather than comparing only the headline trading fee.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can beginners use XXKK for crypto trading?</span>
+                    <span class="icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Beginners can use XXKK's spot market and educational resources to learn basic cryptocurrency trading. The platform publishes guides covering spot trading, trading pairs, futures order types, deposits, withdrawals, and account support. A sensible starting point is to understand spot trading, market and limit orders, fees, and wallet transfers before using leverage. Futures can produce larger gains and losses because leverage increases exposure. New users should therefore understand liquidation, funding, margin, and position sizing before trading perpetual contracts.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About XXKK</h3>
+                    <p>XXKK is a leading cryptocurrency exchange offering spot and derivatives trading, fiat purchasing, and comprehensive educational resources for traders of all levels.</p>
+                    <div class="social-links">
+                        <a href="https://x.com/XXKK_OFFICIAL" title="X (Twitter)" target="_blank" rel="noopener noreferrer">𝕏</a>
+                        <a href="https://t.me/XXKKEnglish" title="Telegram" target="_blank" rel="noopener noreferrer">📱</a>
+                        <a href="https://www.instagram.com/xxkk_official/" title="Instagram" target="_blank" rel="noopener noreferrer">📸</a>
+                        <a href="https://web.facebook.com/XXKKTeam" title="Facebook" target="_blank" rel="noopener noreferrer">f</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://www.xxkk.com/en/">Home</a></li>
+                        <li><a href="https://www.xxkk.com/en/fee">Trading Fees</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Markets</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Academy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="https://www.xxkk.com/en/">Help Center</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Contact Us</a></li>
+                        <li><a href="https://www.xxkk.com/en/">FAQ</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Community</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="https://www.xxkk.com/en/">Privacy Policy</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Terms of Service</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Cookie Policy</a></li>
+                        <li><a href="https://www.xxkk.com/en/">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 XXKK. All rights reserved. | This content is for informational purposes only. Always verify fees and features on the official XXKK website before trading.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" title="Scroll to top">↑</button>
+
+    <script>
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const htmlElement = document.documentElement;
+        const body = document.body;
+
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        if (currentTheme === 'dark') {
+            body.classList.add('dark-mode');
+            themeToggle.textContent = '☀️';
+        } else {
+            themeToggle.textContent = '🌙';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            const isDarkMode = body.classList.contains('dark-mode');
+            
+            // Update icon
+            themeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+            
+            // Save preference
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+
+        // Scroll to Top Button
+        const scrollTop = document.getElementById('scrollTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTop.classList.add('show');
+            } else {
+                scrollTop.classList.remove('show');
+            }
+        });
+
+        scrollTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            
+            question.addEventListener('click', () => {
+                // Close other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations (optional enhancement)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards for subtle animation
+        document.querySelectorAll('.card, .section-card').forEach(card => {
+            card.style.opacity = '0.9';
+            card.style.transform = 'translateY(0)';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
